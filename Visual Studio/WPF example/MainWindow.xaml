@@ -1,0 +1,20 @@
+﻿<Window x:Class="WPF_example.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_example"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="167*"/>
+            <ColumnDefinition Width="626*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="btn_theButton" Content="CLICK ME!" HorizontalAlignment="Left" Height="160" Margin="94.8,131,0,0" VerticalAlignment="Top" Width="287" Grid.Column="1" Click="MyClick" FontSize="48" GotFocus="GotFocus" MouseEnter="MouseEnter"/>
+        <Label x:Name="lbl_comment" Content="Label" HorizontalAlignment="Left" Height="77" Margin="94.8,322,0,0" VerticalAlignment="Top" Width="508" Grid.Column="1" FontSize="48"/>
+        <Button Content="Button" Grid.Column="1" HorizontalAlignment="Left" Height="160" Margin="445.8,126,0,0" VerticalAlignment="Top" Width="139" Click="Button_Click"/>
+        <ComboBox x:Name="cmbbox_list" HorizontalAlignment="Left" Height="74" Margin="22,41,0,0" VerticalAlignment="Top" Width="248" FontSize="48" Grid.ColumnSpan="2" SelectionChanged="SelectionChanged"/>
+
+    </Grid>
+</Window>

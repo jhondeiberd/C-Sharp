@@ -1,0 +1,14 @@
+﻿<Window x:Class="View__WPF_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:View__WPF_"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ComboBox x:Name="cmbBox_students" HorizontalAlignment="Left" Height="75" Margin="165,51,0,0" VerticalAlignment="Top" Width="337" FontSize="36" SelectionChanged="cmbBox_students_SelectionChanged"/>
+        <TextBox x:Name="txtbox_text" HorizontalAlignment="Left" Height="122" Margin="124,195,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="636" FontSize="48"/>
+
+    </Grid>
+</Window>

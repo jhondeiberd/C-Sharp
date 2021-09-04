@@ -1,0 +1,19 @@
+﻿<Window x:Class="WPF_sample_test.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_sample_test"
+        mc:Ignorable="d"
+        Title="Guichet" Height="294.202" Width="331.884">
+    <Grid Margin="0,0,-0.4,-2.8">
+        <TextBox HorizontalAlignment="Left" Height="37" Margin="230,10,0,0" TextWrapping="Wrap" Text="216495" VerticalAlignment="Top" Width="80" FontSize="20"/>
+        <Label Content="#" HorizontalAlignment="Left" Height="37" Margin="213,10,0,0" VerticalAlignment="Top" Width="24" FontSize="20"/>
+        <Button Content="Déposer" HorizontalAlignment="Left" Height="46" Margin="10,101,0,0" VerticalAlignment="Top" Width="302"/>
+        <Button Content="Retirer" HorizontalAlignment="Left" Height="46" Margin="10,155,0,0" VerticalAlignment="Top" Width="302"/>
+        <Button Content="Quitter" HorizontalAlignment="Left" Height="46" Margin="10,209,0,0" VerticalAlignment="Top" Width="302"/>
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="10,56,0,0" TextWrapping="Wrap" Text="500.00$" VerticalAlignment="Top" Width="302" FontSize="20"/>
+        <Label Content="Dupont" HorizontalAlignment="Left" Height="37" Margin="10,10,0,0" VerticalAlignment="Top" Width="101" RenderTransformOrigin="-3.445,0.485" FontSize="20"/>
+        <Label Content="4500.00$" HorizontalAlignment="Left" Height="37" Margin="111,10,0,0" VerticalAlignment="Top" Width="90" RenderTransformOrigin="-3.445,0.485" FontSize="20"/>
+    </Grid>
+</Window>
